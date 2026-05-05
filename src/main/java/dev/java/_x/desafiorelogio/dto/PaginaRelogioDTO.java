@@ -1,4 +1,9 @@
 package dev.java._x.desafiorelogio.dto;
 
-public record PaginaRelogioDTO() {
+import java.util.List;
+
+public record PaginaRelogioDTO(
+        List<RelogioDTO> items,
+        long total
+) {
 }
