@@ -96,7 +96,7 @@ public class RelogioService {
                 .tipoVidro(TipoVidro.fromApi(req.tipoVidro()))
                 .resistenciaAguaM(req.resistenciaAguaM())
                 .diametroMm(req.diametroMm())
-                .lugToLugMm(req.larguraLugMm())
+                .lugToLugMm(req.lugToLugMm())
                 .espessuraMm(req.espessuraMm())
                 .larguraLugMm(req.larguraLugMm())
                 .precoEmCentavos(req.precoEmCentavos())
